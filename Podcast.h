@@ -1,0 +1,6 @@
+
+
+@interface Podcast : NSObject
+
+
+@end
