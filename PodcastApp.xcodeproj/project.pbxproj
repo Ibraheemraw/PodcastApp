@@ -48,8 +48,6 @@
 		48AF031A22FC809E00E4D195 = {
 			isa = PBXGroup;
 			children = (
-				48AF033F22FC904F00E4D195 /* Podcast.h */,
-				48AF034022FC907600E4D195 /* Podcast.m */,
 				48AF032522FC809E00E4D195 /* PodcastApp */,
 				48AF032422FC809E00E4D195 /* Products */,
 			);
@@ -66,19 +64,37 @@
 		48AF032522FC809E00E4D195 /* PodcastApp */ = {
 			isa = PBXGroup;
 			children = (
-				48AF032622FC809E00E4D195 /* AppDelegate.h */,
-				48AF032722FC809E00E4D195 /* AppDelegate.m */,
+				48AF034222FDD47F00E4D195 /* Models */,
+				48AF034322FDD4AC00E4D195 /* SupportingFiles */,
 				48AF033C22FC8B0300E4D195 /* PodcastAppleSearchApi.h */,
 				48AF033D22FC8B2D00E4D195 /* PodcastAppleSearchApi.m */,
 				48AF032922FC809E00E4D195 /* ViewController.h */,
 				48AF032A22FC809E00E4D195 /* ViewController.m */,
-				48AF032C22FC809E00E4D195 /* Main.storyboard */,
-				48AF032F22FC80A100E4D195 /* Assets.xcassets */,
-				48AF033122FC80A100E4D195 /* LaunchScreen.storyboard */,
 				48AF033422FC80A100E4D195 /* Info.plist */,
 				48AF033522FC80A100E4D195 /* main.m */,
 			);
 			path = PodcastApp;
+			sourceTree = "<group>";
+		};
+		48AF034222FDD47F00E4D195 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48AF033F22FC904F00E4D195 /* Podcast.h */,
+				48AF034022FC907600E4D195 /* Podcast.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48AF034322FDD4AC00E4D195 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				48AF032622FC809E00E4D195 /* AppDelegate.h */,
+				48AF032722FC809E00E4D195 /* AppDelegate.m */,
+				48AF032C22FC809E00E4D195 /* Main.storyboard */,
+				48AF032F22FC80A100E4D195 /* Assets.xcassets */,
+				48AF033122FC80A100E4D195 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

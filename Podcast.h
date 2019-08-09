@@ -1,6 +1,0 @@
-
-
-@interface Podcast : NSObject
-
-
-@end

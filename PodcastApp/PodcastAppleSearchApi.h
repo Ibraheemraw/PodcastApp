@@ -8,7 +8,7 @@
 
 @interface AppleSearchApi : NSObject
 
-- (void)searchPodcast;
+- (void)searchPodcast: (NSString *)keyword:(void(^)(NSArray *, NSError *))completionBlock; // Need this to be explained 
 
 
 @end
