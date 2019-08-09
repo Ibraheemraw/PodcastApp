@@ -26,7 +26,7 @@
     if (!_appleSearchApi){
         _appleSearchApi = [[AppleSearchApi alloc]init];
     }
-    [_appleSearchApi searchPodcast];
+    
     
 }
 

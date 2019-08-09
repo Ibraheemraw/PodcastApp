@@ -15,6 +15,7 @@
 		48AF033622FC80A100E4D195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AF033522FC80A100E4D195 /* main.m */; };
 		48AF033E22FC8B2D00E4D195 /* PodcastAppleSearchApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AF033D22FC8B2D00E4D195 /* PodcastAppleSearchApi.m */; };
 		48AF034122FC907600E4D195 /* Podcast.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AF034022FC907600E4D195 /* Podcast.m */; };
+		48AF034722FDE20B00E4D195 /* PodcastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AF034622FDE20B00E4D195 /* PodcastCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		48AF033D22FC8B2D00E4D195 /* PodcastAppleSearchApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodcastAppleSearchApi.m; sourceTree = "<group>"; };
 		48AF033F22FC904F00E4D195 /* Podcast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Podcast.h; sourceTree = "<group>"; };
 		48AF034022FC907600E4D195 /* Podcast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Podcast.m; sourceTree = "<group>"; };
+		48AF034522FDE18F00E4D195 /* PodcastCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodcastCell.h; sourceTree = "<group>"; };
+		48AF034622FDE20B00E4D195 /* PodcastCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodcastCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +69,13 @@
 			children = (
 				48AF034222FDD47F00E4D195 /* Models */,
 				48AF034322FDD4AC00E4D195 /* SupportingFiles */,
-				48AF033C22FC8B0300E4D195 /* PodcastAppleSearchApi.h */,
-				48AF033D22FC8B2D00E4D195 /* PodcastAppleSearchApi.m */,
+				48AF034422FDE13700E4D195 /* NetworkServices */,
 				48AF032922FC809E00E4D195 /* ViewController.h */,
 				48AF032A22FC809E00E4D195 /* ViewController.m */,
 				48AF033422FC80A100E4D195 /* Info.plist */,
 				48AF033522FC80A100E4D195 /* main.m */,
+				48AF034522FDE18F00E4D195 /* PodcastCell.h */,
+				48AF034622FDE20B00E4D195 /* PodcastCell.m */,
 			);
 			path = PodcastApp;
 			sourceTree = "<group>";
@@ -95,6 +99,15 @@
 				48AF033122FC80A100E4D195 /* LaunchScreen.storyboard */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		48AF034422FDE13700E4D195 /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				48AF033C22FC8B0300E4D195 /* PodcastAppleSearchApi.h */,
+				48AF033D22FC8B2D00E4D195 /* PodcastAppleSearchApi.m */,
+			);
+			path = NetworkServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +182,7 @@
 			files = (
 				48AF034122FC907600E4D195 /* Podcast.m in Sources */,
 				48AF032B22FC809E00E4D195 /* ViewController.m in Sources */,
+				48AF034722FDE20B00E4D195 /* PodcastCell.m in Sources */,
 				48AF033622FC80A100E4D195 /* main.m in Sources */,
 				48AF033E22FC8B2D00E4D195 /* PodcastAppleSearchApi.m in Sources */,
 				48AF032822FC809E00E4D195 /* AppDelegate.m in Sources */,
